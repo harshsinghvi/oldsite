@@ -1,23 +1,56 @@
-title: Harsh Singhvi # your name (or website title) here
-logo: "/images/6CB15605-E17B-435C-98A9-66451678E61C.jpeg" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  <p align="left" >
-  <br><br>
-  <a href="https://instagram.com/insomniac_coder?igshid=1m2jur72ucxhf"><img src="/images/6CB15605-E17B-435C-98A9-66451678E61C.jpeg" alt ="LOGO" style="float:right;width:45%;height:45%;" ></a>
-  <br><br>
-  <a href="https://twitter.com/harshsinghvi29?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @harshsinghvi29</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <br><br>
-  This website in under construction.
-  <br><br>
-  By the time you can contact me though:-
-  <br><br>
-  <a href="http://linkedin.com/in/harsh-singhvi-658968a1">View My LinkedIn Profile</a>   
-  <br>
-  <a href="https://instagram.com/insomniac_coder?igshid=1m2jur72ucxhf">View My Instagram Profile</a> 
-    <a href="https://drive.google.com/file/d/113fKyscCjzslVrqtyBUsM-87e9hajSuM/view?usp=drivesdk">MDM</a> 
+title: Harsh Singhvi
+author: harshsinghvi
+email: your-email@domain.com
+description: > # this means to ignore newlines until "show_exerpts:"
+  Personal Website for Portfolio 
 
-  </p>
+show_excerpts: true # set to true to show excerpts on the homepage
 
-plugins: ['jekyll-twitter-plugin']
-theme: jekyll-theme-midnight
-google_analytics: UA-141565153-1 # your Google Analytics tracking ID here
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+sass:
+  sass_dir: _sass
+plainwhite:
+  name: Harsh Singhvi
+  tagline: Coding, Hacking, Cloud, IoT
+  date_format: "%b %-d, %Y"
+  sitemap: true # set to true to generate sitemap.xml content
+  analytics_id: UA-141565153-1
+
+  # generate social links in footer
+  social_links:
+    twitter: harshsinghvi29
+    github:  harshsinghvi
+    linkedIn: in/harsh-singhvi-658968a1
+    rss: rss
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    instagram: insomniac_coder
+    # linkedin: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    telegram: InsomniacCoder
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+theme: plainwhite
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
