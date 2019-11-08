@@ -48,6 +48,10 @@ plainwhite:
 header_pages:
  - about.md
 
+nav_item:
+    - { url: '/', text: 'Home' }
+    - { url: '/about', text: 'About' }
+
 # Build settings
 theme: plainwhite
 
