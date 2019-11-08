@@ -7,7 +7,25 @@ layout: default
 {%- endif -%}
 
 {{ content }}
+<!-- modify this form HTML and place wherever you want your form -->
+<br>
+<form
+  action="https://formspree.io/moqqvjrw"
+  method="POST"
+  enctype="multipart/form-data"
+>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your file:
+    <input type="file" name="upload">
+  </label>
 
+  <button type="submit">Send</button>
+</form>
+<br>
 {%- if site.posts.size > 0 -%}
 <ul class="posts">
   <li>
