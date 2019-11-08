@@ -5,7 +5,7 @@ date:   2019-11-08 09:47:03 +0530
 categories: Introduction 
 ---
 Greatings World!! 
-W3lCOme to my w3bsite!!
+Welcome to my Website!!
 Here I'll be sharing my blogs, projects and other achievements 
 {% highlight ruby %}
 def print_hi(name)
