@@ -1,6 +1,6 @@
 title: Harsh Singhvi
 author: harshsinghvi
-email: your-email@domain.com
+email: harshsinghvi98@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
   Personal Website for Portfolio 
 
@@ -22,7 +22,7 @@ plainwhite:
     twitter: harshsinghvi29
     github:  harshsinghvi
     linkedIn: in/harsh-singhvi-658968a1
-    rss: rss
+    #rss: rss
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
