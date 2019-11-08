@@ -49,7 +49,7 @@ header_pages:
  - about.md
 
 # Build settings
-theme: jekyll-theme-hacker
+theme: plainwhite
 
 plugins:
   - jekyll-seo-tag
