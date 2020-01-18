@@ -16,7 +16,8 @@ plainwhite:
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   analytics_id: UA-141565153-1
-
+  sitemap: true
+  disqus_shortname: games
   # generate social links in footer
   social_links:
     twitter: harshsinghvi29
@@ -33,6 +34,7 @@ plainwhite:
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
     # youtube_channel_name: CloudCannon
     telegram: InsomniacCoder
+
     # googleplus: +jekyll
     # microdotblog: jekyll
 
