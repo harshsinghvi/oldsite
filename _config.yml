@@ -12,7 +12,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Harsh Singhvi
-  tagline: Coding, Hacking, Cloud, IoT
+  tagline: Coding, Cyber Security, Cloud, IoT
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   analytics_id: UA-141565153-1
