@@ -17,23 +17,7 @@ print_hi('Tom')
 {% endhighlight %}
 
 <br>
-<form
-  action="https://formspree.io/moqqvjrw"
-  method="POST"
-  enctype="multipart/form-data"
->
-  <label>
-    Your email:
-    <input type="text" name="_replyto">
-  </label>
-  <label>
-    Your file:
-    <input type="file" name="upload">
-  </label>
 
-  <button type="submit">Send</button>
-</form>
-<br>
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
